@@ -11,7 +11,7 @@ def test_form_entry():
     driver.find_element_by_name("nip").send_keys("12345")
     driver.find_element_by_name("nama").send_keys("John Wick")
     driver.find_element_by_name("nik").send_keys("061120301")
-    driver.find_element_by_name("alamat").send_keys("Tangerang")
+    driver.find_element_by_name("almat").send_keys("Tangerang")
     driver.find_element_by_name("perusahaan").send_keys("Fiktif Inc.")
     driver.find_element_by_name("tanggal").send_keys("01/01/2021")
     driver.find_element_by_name("divisi").send_keys("hrd")
